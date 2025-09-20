@@ -1,0 +1,11 @@
+from tkinter import *
+window=Tk()
+window.title=('first')
+window.geometry=('500x500')
+l1=Label(fg='black',bg='yellow',text='my first project',font=(50))
+l1.pack()
+btn1=Button(fg='red',bg='black',width=100,text='click me')
+btn1.pack()
+f1=Frame(window,height=200,width=200,bg='pink')
+f1.pack()
+window.mainloop()

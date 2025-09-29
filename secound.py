@@ -8,3 +8,4 @@ for r in boder_effects:
     frame.pack(side=LEFT)
     label=Label(master=frame, text=r)
     label.pack()
+Window.mainloop()
